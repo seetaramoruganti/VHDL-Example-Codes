@@ -1,0 +1,53 @@
+------------------------------------------------------------------------------------
+---- Designation:Student
+---- Engineer: Electronics and communication engineering
+---- HDL language : VHDL
+---- Create Date:    16:51:16 12/21/2019 
+---- Design Name: Full Adder
+---- Module Name:    FA - Behavioral 
+---- Project Name: 
+---- Target Devices: 
+---- Tool versions: Xilinx ISE
+---- Description:  Adds  1-bit  data of 3 variables at a max .
+----
+---- Dependencies: 
+----
+---- Revision: 
+---- Revision 0.01 - File Created
+---- Additional Comments: 
+----
+------------------------------------------------------------------------------------
+--library IEEE;
+--use IEEE.STD_LOGIC_1164.ALL;
+--
+----[[[---> Uncomment the following library declaration if using
+---- arithmetic functions with Signed or Unsigned values---<]]]
+----use IEEE.NUMERIC_STD.ALL;
+--
+---- [[[--->Uncomment the following library declaration if instantiating
+---- any Xilinx primitives in this code.---<]]]
+----library UNISIM;
+----use UNISIM.VComponents.all;
+--
+--entity FA is
+--port (a: in std_logic_vector( 2 downto 0 ) ;y:out std_logic_vector (1 downto 0 ));
+--end FA;
+--
+--architecture Behavioral of FA is
+--
+--begin
+--process (a) 
+--begin 
+--			if	(a= "001" or a= "010" or a = "100" or a = "111")
+--					then y(0)<= '1' ;
+--			else
+--					 y(0)<= '0' ;
+--			end if ;
+--			if (a= "011" or a= "101" or a= "110" or a= "111")		 
+--						then y(1) <= '1' ;				
+--			else 	
+--						 y(1) <= '0' ;			
+--			end if ;
+--			end process ;
+--end Behavioral ;
+--
